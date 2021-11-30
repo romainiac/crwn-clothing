@@ -8,6 +8,7 @@ import { selectCollection } from '../../redux/shop/shop.selectors';
 
 import './collection.styles.scss';
 
+//test comment
 const CollectionPage = () => {
   const {collectionId} = useParams();
   const collection = useSelector(selectCollection(collectionId))
